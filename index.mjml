@@ -1,0 +1,36 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css?family=Montserrat" />
+    <mj-title>Драфтер</mj-title>
+    <mj-preview>Интернет ресурс для бизнеса</mj-preview>
+    <mj-style>
+      @media only screen and (max-width: 480px) { *[class~=hide_on_mobile] { display: none !important;} }
+    </mj-style>
+  </mj-head>
+
+  <mj-body padding="0">
+    <mj-wrapper padding="0" background-url="https://files.catbox.moe/i104n3.png">
+
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-image padding="0" fluid-on-mobile="true" src="https://files.catbox.moe/i04dkw.png"/>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="24px 23px 0 24px">
+        <mj-column width="120px" padding="0 0 13px 0">
+          <mj-text padding="0" font-family="Montserrat" font-style="normal" font-size="22px" line-height="27px" font-weight="700" color="#FFD639">О нашем<br>сервисе</mj-text>
+        </mj-column>
+        <mj-column css-class="hide_on_mobile" width="18px" padding="0">
+          <mj-image fluid-on-mobile="true" align="left" padding="0" width="1px" height="48px" src="https://files.catbox.moe/nm1j81.png"/>
+        </mj-column>
+        <mj-column width="411px" padding="0">
+          <mj-text padding="0" font-family="Montserrat" font-style="normal" font-size="12px" line-height="15px" font-weight="700" color="#FFFFFF">
+            Платформа создана для людей которые не стоят на месте, а находятся в постоянном движении вперед. Мы задались вопросом качественных предложений для начинающих и действующих предпринимателей. У нас много интересного.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+  </mj-body>
+</mjml>
