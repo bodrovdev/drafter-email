@@ -5,12 +5,16 @@
     <mj-preview>Интернет ресурс для бизнеса</mj-preview>
     <mj-style>
       @media only screen and (max-width: 599px) { *[class~=hide_on_mobile] { display: none !important;} }
-      @media only screen and (max-width: 599px) { *[class~=no_padding_on_mobile] { padding: 0 0 0 0 !important;} }
+      @media only screen and (max-width: 479px) { *[class~=mobile_padding] { padding: 0 0 0 24px !important;} }
     </mj-style>
+    <mj-attributes>
+      <mj-all font-family: "Montserrat", "Roboto", "Helvetica", "sans-serif"/>;
+    </mj-attributes>
+    <mj-breakpoint width="480px" />
   </mj-head>
 
   <mj-body padding="0">
-    <mj-wrapper padding="0" background-url="https://files.catbox.moe/i104n3.png">
+    <mj-wrapper padding="0" background-url="https://files.catbox.moe/i104n3.png" background-size="cover">
 
       <mj-section padding="0">
         <mj-column padding="0">
@@ -39,10 +43,10 @@
       </mj-section>
 
       <mj-section padding="0 0 14px 24px">
-        <mj-column css-class="hide_on_mobile" width="6px" padding="12px 0 0 0">
+        <mj-column css-class="hide_on_mobile" width="6px" padding="4px 0 0 0">
           <mj-image width="6px" height="6px" padding="0" src="https://files.catbox.moe/c7fnyz.png"/>
         </mj-column>
-        <mj-column css-class="no_padding_on_mobile" width="570px" padding="0 0 0 10px">
+        <mj-column width="570px" padding="0 14px 0 10px">
           <mj-text font-family="Montserrat" font-style="normal" font-size="12px" line-height="15px" font-weight="500" color="#FFFFFF" padding="0">
             Найти и опубликовать объявления, связанные с бизнесом в различных направлениях и сферах;
           </mj-text>
@@ -50,10 +54,10 @@
       </mj-section>
       
       <mj-section padding="0 0 14px 24px">
-        <mj-column css-class="hide_on_mobile" width="6px" padding="4.7px 0 0 0">
+        <mj-column css-class="hide_on_mobile" width="6px" padding="4px 0 0 0">
           <mj-image width="6px" height="6px" padding="0" src="https://files.catbox.moe/c7fnyz.png"/>
         </mj-column>
-        <mj-column css-class="no_padding_on_mobile" width="570px" padding="0 0 0 10px">
+        <mj-column width="570px" padding="0 14px 0 10px">
           <mj-text font-family="Montserrat" font-style="normal" font-size="12px" line-height="15px" font-weight="500" color="#FFFFFF" padding="0">
             Привлечь инвестиции в действующий бизнес;
           </mj-text>
@@ -61,10 +65,10 @@
       </mj-section>
 
       <mj-section padding="0 0 14px 24px">
-        <mj-column css-class="hide_on_mobile" width="6px" padding="4.7px 0 0 0">
+        <mj-column css-class="hide_on_mobile" width="6px" padding="4px 0 0 0">
           <mj-image width="6px" height="6px" padding="0" src="https://files.catbox.moe/c7fnyz.png"/>
         </mj-column>
-        <mj-column css-class="no_padding_on_mobile" width="570px" padding="0 0 0 10px">
+        <mj-column width="570px" padding="0 14px 0 10px">
           <mj-text font-family="Montserrat" font-style="normal" font-size="12px" line-height="15px" font-weight="500" color="#FFFFFF" padding="0">
             Стать инвестором;
           </mj-text>
@@ -72,10 +76,10 @@
       </mj-section>
 
       <mj-section padding="0 0 14px 24px">
-        <mj-column css-class="hide_on_mobile" width="6px" padding="4.7px 0 0 0">
+        <mj-column css-class="hide_on_mobile" width="6px" padding="4px 0 0 0">
           <mj-image width="6px" height="6px" padding="0" src="https://files.catbox.moe/c7fnyz.png"/>
         </mj-column>
-        <mj-column css-class="no_padding_on_mobile" width="570px" padding="0 0 0 10px">
+        <mj-column width="570px" padding="0 14px 0 10px">
           <mj-text font-family="Montserrat" font-style="normal" font-size="12px" line-height="15px" font-weight="500" color="#FFFFFF" padding="0">
             Найти партнеров;
           </mj-text>
@@ -83,10 +87,10 @@
       </mj-section>
 
       <mj-section padding="0 0 14px 24px">
-        <mj-column css-class="hide_on_mobile" width="6px" padding="4.7px 0 0 0">
+        <mj-column css-class="hide_on_mobile" width="6px" padding="4px 0 0 0">
           <mj-image width="6px" height="6px" padding="0" src="https://files.catbox.moe/c7fnyz.png"/>
         </mj-column>
-        <mj-column css-class="no_padding_on_mobile" width="570px" padding="0 0 0 10px">
+        <mj-column width="570px" padding="0 14px 0 10px">
           <mj-text font-family="Montserrat" font-style="normal" font-size="12px" line-height="15px" font-weight="500" color="#FFFFFF" padding="0">
             Только качественно отобранные предложения для предпринимателей;
           </mj-text>
@@ -94,22 +98,53 @@
       </mj-section>
 
       <mj-section padding="0 0 50px 24px">
-        <mj-column css-class="hide_on_mobile" width="6px" padding="4.7px 0 0 0">
+        <mj-column css-class="hide_on_mobile" width="6px" padding="4px 0 0 0">
           <mj-image width="6px" height="6px" padding="0" src="https://files.catbox.moe/c7fnyz.png"/>
         </mj-column>
-        <mj-column css-class="no_padding_on_mobile" width="570px" padding="0 0 0 10px">
+        <mj-column width="570px" padding="0 14px 0 10px">
           <mj-text font-family="Montserrat" font-style="normal" font-size="12px" line-height="15px" font-weight="500" color="#FFFFFF" padding="0">
             Только актуальные новости из мира политики и бизнеса.
           </mj-text>
         </mj-column>
       </mj-section>
 
-      <mj-section padding="0 0 50px 24px">
+      <mj-section padding="0 0 19px 24px">
         <mj-column>
           <mj-text padding="0" font-family="Montserrat" font-style="normal" font-size="17px" line-height="27px" font-weight="700" color="#FFD639">
             Регистрируйтесь и скачивайте мобильное приложение
           </mj-text>
         </mj-column>
+      </mj-section>
+
+      <mj-section padding="0 0 30px 0" css-class="mobile_padding">
+
+        <mj-column width="71px" padding="0">
+          <mj-image src="https://files.catbox.moe/x15aat.png" align="left" width="60px" height="60px" padding="0" />
+        </mj-column>
+
+        <mj-column width="139px" padding="0">
+          <mj-text align="left" font-family="Montserrat" font-style="normal" font-size="12px" line-height="15px" font-weight="700" color="#FFFFFF" padding="22px 0 0 0">
+            Мы в Play Market
+          </mj-text>
+        </mj-column>
+
+        <mj-column css-class="hide_on_mobile" width="26px" padding="10px 0 0 0">
+          <mj-image src="https://files.catbox.moe/w33zad.png" width="17px" height="12px" padding="0 0 10px 0" />
+          <mj-image src="https://files.catbox.moe/v1smhf.png" width="18px" height="18px" padding="0" />
+        </mj-column>
+
+        <mj-column width="131px" padding="8px 0 8px 0">
+          <mj-text align="left" font-family="Montserrat" font-style="normal" font-size="12px" line-height="15px" font-weight="500" color="#FFFFFF" padding="0">Info@drafter.ru</mj-text>
+          <mj-text align="left" font-family="Montserrat" font-style="normal" font-size="12px" line-height="15px" font-weight="500" color="#FFFFFF" padding="10px 0 0 0">https://drafter.ru</mj-text>
+        </mj-column>
+
+        <mj-column width="190px" padding="0">
+          <mj-button height="40px" background-color="#FFCC33" border-radius="30px" font-family="Montserrat" font-style="normal" font-size="11px" line-height="15px" font-weight="700" color="#000000" text-align="left" href="https://t.me/Drafter_community" padding="0">
+            Телеграм<br>
+            t.me/Drafter_community
+          </mj-button>
+        </mj-column>
+
       </mj-section>
 
     </mj-wrapper>
